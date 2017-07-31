@@ -18,4 +18,4 @@ Route::get('/test', function () {
     return view('edu');
 });
 
-Route::post('/sendmail', 'MailController@mail');
+Route::post('/send', 'SendMailController@send');

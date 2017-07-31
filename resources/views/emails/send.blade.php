@@ -1,9 +1,9 @@
 <html>
 <head></head>
-<body style="background: black; color: white">
-<h1>{{$name}}</h1>
-<p>{{$email}}</p>
-<p>{{$phone}}</p>
-<p>{{$message}}</p>
+<body>
+    <p1> Nombre: {{$name}}</p1>
+    <p> Email: {{$email}}</p>
+    <p> Teléfono: {{$phone}}</p>
+    <p> Mensaje: {{$mensaje}}</p>
 </body>
 </html>
