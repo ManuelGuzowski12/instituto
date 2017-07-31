@@ -1,4 +1,4 @@
-<section id="contact">
+<section id="contact" xmlns="http://www.w3.org/1999/html">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -50,6 +50,11 @@
                     </div>
                 </form>
             </div>
+
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <h3 class="text-center">Ubicación</h3>
+            <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAhXaZzo3eMrMmJmVKZHtT_ZDtFUSbOh6Q&q=Centro+Educativo+de+Lideres%2FLearning+Center+%26+Institute"></iframe>
         </div>
     </div>
 </section>
