@@ -56,13 +56,16 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio">Inicio</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">Nosotros</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#programas">Programas</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#service">Servicios</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#contact">Contacto</a>
@@ -89,15 +92,22 @@
     @include('about')
 @show
 
+<!-- Programs Section -->
 @section('programas')
     @include('programas')
 @show
 
+<!-- Service Section -->
+@section('service')
+    @include('service')
+@show
 
 <!-- Contact Section -->
 @section('contact')
     @include('contact')
 @show
+
+
 
 <footer class="text-center">
     <div class="footer-above">
