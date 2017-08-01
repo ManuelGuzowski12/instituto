@@ -51,10 +51,7 @@
                                     <li class="text-justify">Analizar aspectos esenciales relacionados con los registros contables, impuestos, finanzas y administración del comercio nacional.</li>
                                     <li class="text-justify">Lograr la adquisición de las destrezas y confianza en el proceso de realizar inventarios, tratamiento de propiedades, planta y equipo para
                                         empresas comerciales.</li>
-                                    <li class="text-justify">Realizar un proyecto práctico en línea virtual al final del curso de carácter investigativo con una de las temáticas estudiadas de durante el curso.
-                                    </li>
-
-
+                                    <li class="text-justify">Realizar un proyecto práctico en línea virtual al final del curso de carácter investigativo con una de las temáticas estudiadas de durante el curso.</li>
                                 </ul>
                                 </p>
                             </div>
