@@ -18,6 +18,7 @@
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
     <link href="css/micss.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
 
 
     <!-- Custom Fonts -->
@@ -61,6 +62,9 @@
                     <a href="#about">Nosotros</a>
                 </li>
                 <li class="page-scroll">
+                    <a href="#programas">Programas</a>
+                </li>
+                <li class="page-scroll">
                     <a href="#contact">Contacto</a>
                 </li>
             </ul>
@@ -84,6 +88,12 @@
 @section('success')
     @include('about')
 @show
+
+@section('programas')
+    @include('programas')
+@show
+
+
 <!-- Contact Section -->
 @section('contact')
     @include('contact')
@@ -124,6 +134,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     Copyright &copy; Your Website 2016
+                    <a href="http://www.freepik.com">Freepik</a>
                 </div>
             </div>
         </div>
@@ -363,6 +374,8 @@
 
 <!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/miJS.js"></script>
+
 
 <!-- Bootstrap Core JavaScript -->
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

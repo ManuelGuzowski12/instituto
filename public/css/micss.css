@@ -118,7 +118,9 @@
         margin-top: 30px;
 
     }
-
+    .card.hovercard .useravatar{
+        top:35px;
+    }
 
 }
 @media screen and (max-width: 640px){
@@ -137,7 +139,6 @@
         position: absolute;
         left: 50%;
     }
-
 }
 
 .edu-titulo{
@@ -148,15 +149,7 @@
     margin-bottom: 60px;
 }
 
-.card {
-    margin-bottom: 30px;
-    font-size: 1em;
-    overflow: hidden;
-    padding: 0;
-    border: none;
-    border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #66a1ac, 0 0 0 1px #069de0;
-}
+
 
 .card-block {
     font-size: 1em;
@@ -251,3 +244,217 @@
 .meta a:hover {
     color: rgba(0, 0, 0, .87);
 }
+
+.destacados{
+    padding: 20px 0;
+    text-align: center;
+}
+.destacados > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.destacados > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.card-background img {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.card-background{
+    height:400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* USER PROFILE PAGE */
+.card {
+    /*margin-top: 20px;*/
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    /* -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 992px){
+    .card.hovercard .card-background {
+        height: 150px;
+    }
+}
+@media screen and (min-width: 992px){
+    .card.hovercard .card-background {
+        height: auto;
+    }
+}
+
+
+
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+    bottom: auto;
+
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+li .text-justify{
+    font-size: 20px;
+}
+
+/* TARJETASS */
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.parent{
+    width:100%;
+    min-height:20em;
+    float:left;
+    position:relative;
+}
+
+.child{
+    width:30%;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+
+.card-box-gb{
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
