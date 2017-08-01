@@ -65,7 +65,7 @@
                                 </p>
                             </div>
                             <div class="tab-pane fade in" id="tab3">
-                                <h3>Equipos y Medios Didácticos</h3>
+                                <h3>Métodos o Técnicas</h3>
                                 <p>
                                 <ul>
                                     <li>Asignaciones e investigaciones prácticas del estudiante.</li>
