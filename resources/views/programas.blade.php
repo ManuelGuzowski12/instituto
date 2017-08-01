@@ -1,4 +1,4 @@
-<section id="programas">
+<section class="success" id="programas">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
