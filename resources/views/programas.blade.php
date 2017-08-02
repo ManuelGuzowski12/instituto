@@ -24,13 +24,11 @@
                 @include('programa_lider')
             </div>
         </div>
-        {{--
         <div class="row edu-margin">
             <div class="container-fluid">
                 @include('programa_motivacion')
             </div>
         </div>
-        --}}
         <div class="row edu-margin">
             <div class="container-fluid">
                 @include('programa_seguridad')
